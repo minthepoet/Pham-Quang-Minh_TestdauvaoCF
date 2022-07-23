@@ -1,21 +1,3 @@
-
-  
-//   function alternatingSums(a) {
-//     var teamWeights = [0, 0],
-//         i = 0,
-//         whichTeam = 0;
-//     while (i < a.length) {
-//       teamWeights[whichTeam] += a[i];
-//       i++;
-//       whichTeam = (whichTeam + 1) % 2;
-//     }
-//     return teamWeights;
-//   }
-  
-//   (function main () {
-//     var a = [60, 40, 55, 75, 64];
-//     log(alternatingSums(a));
-//   })();
 const input = [60, 40, 55, 75, 64]
 function findWeightForEachTeam (peopleLine){
     const finalResult = [];
